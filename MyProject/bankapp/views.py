@@ -127,7 +127,5 @@ def userfeedback(request):
                       {"user_role":repo.getuser(request.COOKIES.get('SESSION_ID'))["role_name"],
                        "user_comments":repo.getcomments()})
 
-def Test():
-    pass
 def bala():
     pass
